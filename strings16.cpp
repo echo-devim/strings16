@@ -5,7 +5,6 @@ using namespace std;
 
 int main(int argc, char *argv[]) {
     char curr, prev = 1;
-    bool printed = false;
 
     if (argc < 2) {
         cerr << "File path is missing" << endl;
